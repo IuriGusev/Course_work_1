@@ -52,8 +52,6 @@ public class Main {
                 System.out.println(employee.getSurname());
             }
         }
-
-
         public static void main (String[]args) {
             Employee worker1 = new Employee("Иван", "Иванович", "Иванов", 1, 1000);
             Employee worker2 = new Employee("Борис", "Борисович", "Борисов", 2, 2000);
