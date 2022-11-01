@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0327d20f-dda6-476f-902d-7df66379fc5a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="0327d20f-dda6-476f-902d-7df66379fc5a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="CW_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +72,7 @@
       <workItem from="1667037474738" duration="9777000" />
       <workItem from="1667111887997" duration="12000" />
       <workItem from="1667126826201" duration="469000" />
-      <workItem from="1667293450368" duration="6599000" />
+      <workItem from="1667293450368" duration="6978000" />
     </task>
     <task id="LOCAL-00001" summary="made CW_1">
       <created>1667048194143</created>
@@ -97,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667299827531</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="made CW_1_1">
+      <created>1667300200880</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667300200880</updated>
+    </task>
+    <task id="LOCAL-00005" summary="made CW_1_1">
+      <created>1667300352350</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667300352350</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made CW_1" />
     <MESSAGE value="made CW_1_" />
-    <option name="LAST_COMMIT_MESSAGE" value="made CW_1_" />
+    <MESSAGE value="made CW_1_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="made CW_1_1" />
   </component>
 </project>
