@@ -3,27 +3,36 @@ import java.util.Arrays;
 public class Main {
     public static Employee[] employees = new Employee[10];
 
-    public static void ptintEmloyees() {
+    public static Employee[] ptintEmloyees() {
         for (Employee employee : employees) {
+            if (employee != null) {
+                return employees;
+            }
             System.out.println(employees);
         }
+        return new Employee[10];
     }
 
-    public static int calculateAmmountSalary() {
+    public static Employee[] calculateAmmountSalary() {
         int sum = 0;
         for (Employee employee : employees) {
             sum += employee.getSalary();
         }
-        return sum;
+        if (employees != null) {
+            return employees;
+        }
     }
 
-    public static Object employeeMinSalary() {
+    public static Employee employeeMinSalary() {
         Employee result = employees[0];
         int minSalary = employees[0].getSalary();
         for (Employee employee : employees) {
             if (employee.getSalary() < minSalary) {
                 minSalary = employee.getSalary();
                 result = employee;
+            }
+            if (employee != null) {
+                return employee;
             }
             return result;
         }
@@ -38,13 +47,16 @@ public class Main {
                     maxSalary = employee.getSalary();
                     result = employee;
                 }
-                return result;
+            if (employee != null) {
+            return employee;
+                }
+            return result;
             }
             return result;
         }
 
-        public static float calculateMiddleSalary () {
-            return calculateAmmountSalary() / (float) employees.length;
+        public static Employee calculateMiddleSalary () {
+            return calculateAmmountSalary() / new Employee[].length;
         }
 
         public static void printEveryNames () {
