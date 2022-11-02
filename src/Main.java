@@ -7,7 +7,7 @@ public class Main {
          System.out.println(employees);
         }}}
 
-    public static int calculateAmountSalary() {
+        public static int calculateAmountSalary() {
         int sum = 0;
         for (Employee employee : employees) {
             sum += employee.getSalary();
