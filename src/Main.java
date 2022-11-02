@@ -1,69 +1,55 @@
-import java.util.Arrays;
-
 public class Main {
     public static Employee[] employees = new Employee[10];
 
-    public static Employee[] ptintEmloyees() {
+    public static void ptintEmloyees() {
         for (Employee employee : employees) {
-            if (employee != null) {
-                return employees;
-            }
-            System.out.println(employees);
-        }
-        return new Employee[10];
-    }
+            if (employee != null);{
+         System.out.println(employees);
+        }}}
 
-    public static Employee[] calculateAmmountSalary() {
+    public static int calculateAmountSalary() {
         int sum = 0;
         for (Employee employee : employees) {
             sum += employee.getSalary();
+            if(employee != null){
+            sum += employee.getSalary();
         }
-        if (employees != null) {
-            return employees;
-        }
+        return sum;
+    }
+        return sum;
     }
 
     public static Employee employeeMinSalary() {
         Employee result = employees[0];
         int minSalary = employees[0].getSalary();
         for (Employee employee : employees) {
-            if (employee.getSalary() < minSalary) {
+            if (employee != null && employee.getSalary() < minSalary) {
                 minSalary = employee.getSalary();
                 result = employee;
             }
-            if (employee != null) {
-                return employee;
-            }
-            return result;
         }
-        return result;
-    }
+        return result;}
+
 
         public static Employee employeeMaxSalary () {
             Employee result = employees[0];
             int maxSalary = employees[0].getSalary();
             for (Employee employee : employees) {
-                if (employee.getSalary() > maxSalary) {
+                if (employee != null && employee.getSalary() > maxSalary) {
                     maxSalary = employee.getSalary();
                     result = employee;
                 }
-            if (employee != null) {
-            return employee;
-                }
-            return result;
             }
-            return result;
-        }
+            return result;}
 
-        public static Employee calculateMiddleSalary () {
-            return calculateAmmountSalary() / new Employee[].length;
-        }
+        public static double calculateMiddleSalary () {
+            return calculateAmountSalary() / (double) employees.length;}
 
         public static void printEveryNames () {
             for (Employee employee : employees) {
+                if(employee!=null){
                 System.out.println(employee.getSurname());
-            }
-        }
+            }}}
         public static void main (String[]args) {
             Employee worker1 = new Employee("Иван", "Иванович", "Иванов", 1, 1000);
             Employee worker2 = new Employee("Борис", "Борисович", "Борисов", 2, 2000);
@@ -76,10 +62,10 @@ public class Main {
             employees[2] = worker3;
             employees[3] = worker4;
             employees[4] = worker5;
-            System.out.println(Arrays.toString(employees));
-            System.out.println(calculateAmmountSalary());
-            System.out.println(calculateMiddleSalary());
-            System.out.println(employeeMinSalary());
-            System.out.println(employeeMaxSalary());
-        }
+            System.out.println("Список сотрудников: " + ptintEmloyees());
+            System.out.println("Общий фонд заработной платы: " + calculateAmountSalary());
+            System.out.println("Средняя заработная плата: " + calculateMiddleSalary());
+            System.out.println("Минимальная заработная плата : " + employeeMinSalary());
+            System.out.println("Максимальная заработная плата : " + employeeMaxSalary());
+          }
     }
