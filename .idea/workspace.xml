@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="CW_1" />
+        <entry key="$PROJECT_DIR$" value="CW_1_1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,7 +76,7 @@
       <workItem from="1667111887997" duration="12000" />
       <workItem from="1667126826201" duration="469000" />
       <workItem from="1667293450368" duration="7594000" />
-      <workItem from="1667373024744" duration="3266000" />
+      <workItem from="1667373024744" duration="4307000" />
     </task>
     <task id="LOCAL-00001" summary="made CW_1">
       <created>1667048194143</created>
@@ -120,16 +120,42 @@
       <option name="project" value="LOCAL" />
       <updated>1667300493789</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="made CW_1_2">
+      <created>1667376362865</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667376362865</updated>
+    </task>
+    <task id="LOCAL-00008" summary="made CW_1_2">
+      <created>1667376546265</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667376546265</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="made CW_1" />
     <MESSAGE value="made CW_1_" />
     <MESSAGE value="made CW_1_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="made CW_1_1" />
+    <MESSAGE value="made CW_1_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="made CW_1_2" />
   </component>
 </project>

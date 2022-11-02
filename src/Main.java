@@ -3,7 +3,7 @@ public class Main {
 
     public static void ptintEmloyees() {
         for (Employee employee : employees) {
-            if (employee != null);{
+            if (employee != null){
          System.out.println(employees);
         }}}
 
@@ -62,7 +62,7 @@ public class Main {
             employees[2] = worker3;
             employees[3] = worker4;
             employees[4] = worker5;
-            System.out.println("Список сотрудников: " + ptintEmloyees());
+            ptintEmloyees();
             System.out.println("Общий фонд заработной платы: " + calculateAmountSalary());
             System.out.println("Средняя заработная плата: " + calculateMiddleSalary());
             System.out.println("Минимальная заработная плата : " + employeeMinSalary());
